@@ -12,12 +12,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "--"
-    OWNER_ID = "Ha Ha"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "legendx22"
+    API_KEY = "1414346382:AAF9oz4SNi1LaNF0Cph9mtdZfD8OhnkipPc"
+    OWNER_ID = "1369875901"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "NetSHEEL"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://yuiusr:7ppf6ChsMwaC@144.91.97.206:5432/yuidb'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     GBAN_LOGS = -1001400676390 #Channel ID here with -
     LOAD = []
@@ -27,12 +27,12 @@ class Config(object):
 
     # OPTIONAL
     #ID Seperation format [1,2,3,4]
-    SUDO_USERS = get_user_list('elevated_users.json', 'sudos')  # List of id's -  (not usernames) for users which have sudo access to the bot.
-    DEV_USERS = get_user_list('elevated_users.json', 'devs')  # List of id's - (not usernames) for developers who will have the same perms as the owner
+    SUDO_USERS = get_user_list ('elevated_users.json', 'sudos')  # List of id's -  (not usernames) for users which have sudo access to the bot.
+    DEV_USERS = 1634756943 1163444049 ('elevated_users.json', 'devs')  # List of id's - (not usernames) for developers who will have the same perms as the owner
     SUPPORT_USERS = get_user_list('elevated_users.json', 'supports')  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = get_user_list('elevated_users.json', 'whitelists')  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     CERT_PATH = None
-    PORT = 5000
+    PORT = 5432
     DEL_CMDS = False  #Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = True
     STRICT_GMUTE = True
@@ -40,9 +40,9 @@ class Config(object):
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
     ALLOW_EXCL = False  # Allow ! commands as well as /
     CASH_API_KEY = None # Get one from https://www.alphavantage.co/support/#api-key
-    TIME_API_KEY = None # Get one from https://timezonedb.com/register
-    API_OPENWEATHER = False #Get API_OPENWEATHER FROM OFFICAL SITE https://da.gd/VAW3
-    AI_API_KEY = None # Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/
+    TIME_API_KEY = HW6LQCYX43HS # Get one from https://timezonedb.com/register
+    API_OPENWEATHER = 5c5adc2bc1832de6943e3f4467e84c39 #Get API_OPENWEATHER FROM OFFICAL SITE https://da.gd/VAW3
+    AI_API_KEY = 3edb3af892b531cf87072486250981b7987f0cfd9d6df0803d88df6a739979608ca7bee17bcfbe94f7e4c002b84ae08613b5c7298e43b165535bca0390321754 # Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/
     WALL_API = None # Get one from https://wall.alphacoders.com/api.php
 
 
