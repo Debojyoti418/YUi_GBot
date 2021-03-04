@@ -40,9 +40,9 @@ class Config(object):
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
     ALLOW_EXCL = False  # Allow ! commands as well as /
     CASH_API_KEY = None # Get one from https://www.alphavantage.co/support/#api-key
-    TIME_API_KEY = HW6LQCYX43HS # Get one from https://timezonedb.com/register
-    API_OPENWEATHER = 5c5adc2bc1832de6943e3f4467e84c39 #Get API_OPENWEATHER FROM OFFICAL SITE https://da.gd/VAW3
-    AI_API_KEY = 3edb3af892b531cf87072486250981b7987f0cfd9d6df0803d88df6a739979608ca7bee17bcfbe94f7e4c002b84ae08613b5c7298e43b165535bca0390321754 # Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/
+    TIME_API_KEY = None # Get one from https://timezonedb.com/register
+    API_OPENWEATHER = None #Get API_OPENWEATHER FROM OFFICAL SITE https://da.gd/VAW3
+    AI_API_KEY = None # Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/
     WALL_API = None # Get one from https://wall.alphacoders.com/api.php
 
 
