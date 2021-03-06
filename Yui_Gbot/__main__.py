@@ -30,8 +30,9 @@ Hyy {}, My Name is {}
 
 i am a group management bot I can help you to manage your group
 You can find my list of available commands with /help
+You can you also use my another bot -[ALICE](https://t.me/yuuko_shinoji_bot)
 
-Developer By- [ꋊꏂ꓄-ꇙꁝꏂ꒒꒒ ⚡️](https://t.me/Net_SHELL)
+Developed By- [『DC』ᵀᵉᵃᵐ★ᎳᎪᏒᏒᎥᎾᏒ★](https://t.me/DEBOJYOTINO1)
 
 """
 
@@ -51,8 +52,8 @@ Hello! My Name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-Yui_Gbot_IMG = "https://telegra.ph/file/f73506e09900f96a9c16e.png"
-GSTART_IMG = "https://telegra.ph/file/8051350a1afea2c772dd5.mp4"
+Yui_Gbot_IMG = "https://telegra.ph/file/46a3b6cb0faeb3b8cc0c6.jpg"
+GSTART_IMG = "https://telegra.ph/file/c0e796ec07e64e323e51e.mp4"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -145,7 +146,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="☺️Help",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Support Group 💬",
-                                                                       url="t.me/Yui_Official")],
+                                                                       url="t.me/Animeweebs2")],
                                                                                    [InlineKeyboardButton(text="Add Me 🔰",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="improve Me 🧲",
