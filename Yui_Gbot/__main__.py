@@ -52,7 +52,7 @@ Hello! My Name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-Yui_Gbot_IMG = "https://telegra.ph/file/46a3b6cb0faeb3b8cc0c6.jpg"
+Yui_Gbot_IMG = "https://telegra.ph/file/351d31c38c0621c87eba2.jpg"
 GSTART_IMG = "https://telegra.ph/file/c0e796ec07e64e323e51e.mp4"
 IMPORTED = {}
 MIGRATEABLE = []
